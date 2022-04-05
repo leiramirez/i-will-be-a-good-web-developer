@@ -1,0 +1,47 @@
+footer {
+  background: #1C1C1C;
+  color: white;
+  padding: 15px;
+  max-width: 100%;
+}
+
+#text {
+  display:inline-block;
+  vertical-align: top;
+  padding-left: 65px;
+  padding-right: 75px;
+  width: 15%;
+}
+
+.sections {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 75px;
+}
+
+.sections-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sections-text {
+  padding-bottom: 10px;
+}
+
+.f-link {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  #text {
+    padding-left: 16px;
+    padding-right: 50px;
+    width: 40%;
+  }
+
+  .sections {
+    padding-right: 50px;
+    padding-left: 16px;
+  }
+}

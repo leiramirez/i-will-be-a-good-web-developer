@@ -1,0 +1,50 @@
+header {
+  background: #1C1C1C;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+#home {
+  float: left;
+  padding-left: 50px;
+  width: 50%;
+}
+
+#header-links {
+  margin-left: 50%;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.h-link {
+  color: white;
+  text-decoration: none;
+  font-size: 115%;
+  margin: 15px;
+}
+
+#sign-up {
+  background: #6A994E;
+  padding: 15px;
+}
+
+#sign-up:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  #home {
+    display: block;
+    padding: 0;
+    width: 100%;
+  }
+
+  #header-links {
+    margin: 15px 0 0;
+    text-align: left;
+    display: inline-block;
+  }
+}
